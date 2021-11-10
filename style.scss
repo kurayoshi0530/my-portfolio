@@ -1,11 +1,40 @@
+body {
+    letter-spacing: 0.1em;
+}
+
+// ---------- indexページ ----------
 .title {
-    h1 {
-        color: red;
+    .titleAnime {
+        color: lightgreen;
+        font-size: 96px;
+        font-family: "Shrikhand", cursive;
+        letter-spacing: 0.2em;
+    }
+
+    // ---------- タイトルを１文字づつ表示させる ----------
+    .titleAnime {
+        opacity: 0;
+    }
+
+    .titleAnime span {
+        opacity: 0;
+        -webkit-transition: 0.6s ease-in-out;
+        transition: 0.6s ease-in-out;
+    }
+    // ---------- タイトルを１文字づつ表示させる ここまで ----------
+
+    .profile {
+        p {
+            font-size: 20px;
+        }
     }
 }
 
+// ---------- profileページ ----------
 .profile {
     p {
         color: red;
     }
 }
+
+// ---------- collection_worksページ ----------

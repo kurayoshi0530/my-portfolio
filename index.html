@@ -4,6 +4,8 @@
         <meta charset="uft-8">
         <!-- CSSファイルを読み込み -->
         <link rel="stylesheet" href="style.css">
+        <!-- スタイルシート読み込み 1分毎にCSSがと見込まれるのでCSSが反映されないのを防ぐ事が出来る -->
+        <link rel="stylesheet" href="./css/cm_pc.css?<?php echo date('Ymd-Hi'); ?>" type="text/css">
         <!-- リセットCSSファイル読み込み -->
         <link rel=https://qumeru.com/magazine/70"stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <!-- BootStrap読み込み -->
@@ -13,18 +15,30 @@
         <title>my-portfolio</title>
     </head>
     <body>
-        <div class="title">
-            <h1>yoshihiko kurachi</h1>
-        </div>
-        <div class="profile">
-            <a href="profile.html" class="btn">自己紹介</a>
-        </div>
-        <div class="inguiry">
-            <p>お問い合わせ （仕事用のメルアドを表示）</p>
-        </div>
-        <div class="collection works">
-            <a href="collection_works.html" class="btn">作品集</a>
-        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <!-------------------- タイトル表示 -------------------->
+                <div class="col-lg-12 d-flex align-items-center justify-content-center title" style="height:600px;">
+                    <p class="titleAnime">
+                        yoshihiko kurachi
+                    </p>
+                </div>
+            </div> <!-- end row -->
+            <div class="row">
+                <!-------------------- プロフィールページのリンク配置 -------------------->
+                <div class="col-lg-6 text-center profile">
+                    <a href="profile.html" class="btn">自己紹介</a>
+                </div>
+                <!-------------------- 作品集ページのリンク配置 -------------------->
+                <div class="col-lg-6 text-center collection_works">
+                    <a href="collection_works.html" class="btn">作品集</a>
+                </div>
+            </div> <!-- end row -->
+            <!--------------------  -------------------->
+            <div class="col-lg-12 text-center inguiry">
+                <p>お問い合わせ （仕事用のメルアドを表示）</p>
+            </div>
+        </div> <!-- end container -->
         <!-- JavaScriptの読み込み -->
         <script src="index.js"></script>
     </body>
