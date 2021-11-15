@@ -13,9 +13,34 @@
         <title>my-portfolio</title>
     </head>
     <body>
-        <div class="profile">
-            <p>サンプル</p>
-        </div>
+        <div class="container-fluid">
+            <div class="text-center about">
+                <h1>ABOUT</h1>
+            </div>
+            <div class="row">
+                <!-------------------- アイコン表示 -------------------->
+                <div class="col-lg-6 d-flex align-items-center justify-content-center icon" style="height:650px;">
+                    <img src="images/キャラアイコン.jpeg" alt="ヒヨッ子">
+                </div>
+                <!-------------------- 自己紹介表示 -------------------->
+                <div class="col-lg-6 d-flex flex-column justify-content-center about" style="height:650px;">
+                    <div class="flex-fill text-left profile">
+                        <p>profile</p>
+                        <p>氏名：倉地良彦</p>
+                        <p>誕生日：１９７６年５月３０日</p>
+                        <p>居住地：愛知県</p>
+                    </div>
+                    <div class="flex-fill test-left chance">
+                        <p>IT業界に飛び込んだきっかけ</p>
+                        <p>高卒後、車の部品を作る工場で２５年間金型修理業務をしていましたが、コロナ禍で将来のことを考える時間が多くなりました。</p>
+                        <p>家族のことを考えると今後自動車業界で働き続けるのは難しいと感じて、昔から興味のあったプログラムなら将来いろんな道を切り拓けると思ったのでIT業界に飛び込みました。</p>
+                    </div>
+                    <div class="flex-fill text-left skill">
+                        <p>skillはアイコンで表示させる</p>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
         <a href="index.html" class="btn">前に戻る</a>
         <!-- JavaScriptの読み込み -->
         <script src="js/profile.js"></script>
