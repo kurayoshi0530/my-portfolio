@@ -26,5 +26,24 @@ body {
 }
 
 // ---------- profileページ ----------
+.about {
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
 
+    .icon {
+        padding:30px;
+        width: 32%;
+    }
+
+    h4 {
+        color: lightgreen;
+    }
+
+    .skill p {
+        
+    }
+}
 // ---------- collection_worksページ ----------
