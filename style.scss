@@ -5,7 +5,12 @@ body {
 
 // ---------- indexページ ----------
 .title {
+    .title {
+        position: relative;
+    }
+
     .titleAnime {
+        position: absolute;
         color: lightgreen;
         font-size: 96px;
         font-family: "Shrikhand", cursive;
@@ -23,6 +28,28 @@ body {
         transition: 0.6s ease-in-out;
     }
     // ---------- タイトルを１文字づつ表示させる ここまで ----------
+
+    // ---------- トップページ読み込み時にロゴを表示させる ----------
+    .logo {
+        background: #FFF;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 9000;
+    }
+    .logo p {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 9999;
+        width: 280px;
+    }
+    // ---------- トップページ読み込み時にロゴを表示させる ここまで ----------
+
 }
 
 // ---------- profileページ ----------
@@ -43,7 +70,7 @@ body {
     }
 
     .skill p {
-        
+        // テキストにハイライト
     }
 }
 // ---------- collection_worksページ ----------

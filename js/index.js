@@ -29,3 +29,13 @@ setInterval(function() {
 $(function() {
     $('body').fadeIn(1500); //1,5秒かけてフェードインで表示(数字が少なくなると早く表示される)
 });
+
+// ---------- トップページ読み込み時にロゴを表示させる ----------
+$(function() {
+	setTimeout(function(){
+		$('.logo p').fadeIn(1600);
+	},500); //0.5秒後にロゴをフェードイン!
+	setTimeout(function(){
+		$('.logo').fadeOut(500);
+	},2500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+});

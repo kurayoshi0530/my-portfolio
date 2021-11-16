@@ -3,7 +3,11 @@ body {
   display: none;
 }
 
+.title .title {
+  position: relative;
+}
 .title .titleAnime {
+  position: absolute;
   color: lightgreen;
   font-size: 96px;
   font-family: "Shrikhand", cursive;
@@ -16,6 +20,25 @@ body {
   opacity: 0;
   -webkit-transition: 0.6s ease-in-out;
   transition: 0.6s ease-in-out;
+}
+.title .logo {
+  background: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
+}
+.title .logo p {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+  width: 280px;
 }
 
 .about .wrap {
