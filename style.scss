@@ -68,9 +68,16 @@ body {
     h4 {
         color: lightgreen;
     }
-
-    .skill p {
-        // テキストにハイライト
-    }
 }
 // ---------- collection_worksページ ----------
+. original-app {
+    #original-app-display img {
+        object-fit: cover;
+        // width: 200px;
+        // height: 150px;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

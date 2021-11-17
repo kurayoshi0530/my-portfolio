@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <meta charset="uft-8">
+        <meta charset="utf-8">
         <!-- CSSファイルを読み込み -->
         <link rel="stylesheet" href="style.css">
         <!-- リセットCSSファイル読み込み -->
@@ -13,10 +13,37 @@
         <title>my-portfolio</title>
     </head>
     <body>
-        <div class="collection_works">
-            <p>サンプル</p>
+        <div class="text-center collection_works">
+            <h1>作品集</h1>
         </div>
-        <a href="index.html" class="btn">トップページに戻る</a>
+        <div class="text-center link">
+            <a href="t index.html" class="btn">トップページに戻る</a>
+        </div>
+        <div class="container-fluid">
+            <div class="justify-content-around row">
+                    <div id="col-lg-4 original-app-display">
+                        <img src="images/オリジナルアプリ関係/ルート検索画面.jpg" alt=""></p>
+                        <p>ルート検索画面</p>
+                    </div>
+                    <div id="col-lg-4 original-app-display">
+                        <img src="images/オリジナルアプリ関係/レビュー投稿画面.jpg" alt=""></p>
+                        <p>レビュー投稿画面</p>
+                    </div>
+                    <div id="col-lg-4 original-app-dislay">
+                        <img src="images/オリジナルアプリ関係/API・プラグイン画面.jpg" alt=""></p>
+                        <p>API・プラグイン実装画面</p>
+                    </div>
+            </div> <!-- end row -->
+            <div class="col-lg-12 text-center">
+                <h3>開発秘話</h3>
+                <div class="col-lg-12 text-left Development-secret-story">
+                    <p>開発当初はprogateのHTML＆CSSとプログラミングスクールでwordPressとPHPの教材をやった程度の知識からスタートしました。</p>
+                    <p>基本もままならない状態からスタートして、環境構築から一通りの機能実装まで４ヶ月程掛かりました。</p>
+                    <p>Dockerで環境構築する際に使っている<span>Mac bookが動かなくなり</span>、OSを再インストールした時は冷や汗かきました。</p>
+                    <h5>頑張ってきた結果開発当初に比べてエラーやトラブルがあってもググって自分で考えて解決する力が上がりました。</h5>
+                </div>
+            </div>
+        </div> <!-- end container -->
         <!-- JavaScriptの読み込み -->
         <script src="js/collection_works.js"></script>
     </body>
