@@ -58,4 +58,26 @@ body {
 .about h4 {
   color: lightgreen;
 }
+
+.collection_works h1 {
+  color: lightgreen;
+}
+.collection_works .development-secret-story h3 {
+  padding-top: 20px;
+  color: lightgreen;
+}
+.collection_works .development-secret-story span {
+  color: red;
+  font-weight: bold;
+}
+.collection_works .important {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
 /*# sourceMappingURL=style.css.map */
