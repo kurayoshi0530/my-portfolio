@@ -62,6 +62,11 @@ body {
 .collection_works h1 {
   color: lightgreen;
 }
+.collection_works img {
+  -webkit-box-shadow: 15px 15px 20px #646664;
+          box-shadow: 15px 15px 20px #646664;
+  margin-bottom: 30px;
+}
 .collection_works .notes p {
   color: red;
 }
