@@ -62,6 +62,9 @@ body {
 .collection_works h1 {
   color: lightgreen;
 }
+.collection_works .notes p {
+  color: red;
+}
 .collection_works .development-secret-story h3 {
   padding-top: 20px;
   color: lightgreen;
