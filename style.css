@@ -12,6 +12,7 @@ body {
   font-size: 96px;
   font-family: "Shrikhand", cursive;
   letter-spacing: 0.2em;
+  text-shadow: 5px 5px lightgray;
 }
 .title .titleAnime {
   opacity: 0;
@@ -63,8 +64,8 @@ body {
   color: lightgreen;
 }
 .collection_works img {
-  -webkit-box-shadow: 15px 15px 20px #646664;
-          box-shadow: 15px 15px 20px #646664;
+  -webkit-box-shadow: 15px 15px 20px #717271;
+          box-shadow: 15px 15px 20px #717271;
   margin-bottom: 30px;
 }
 .collection_works .notes p {

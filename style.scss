@@ -15,6 +15,7 @@ body {
         font-size: 96px;
         font-family: "Shrikhand", cursive;
         letter-spacing: 0.2em;
+        text-shadow: 5px 5px lightgray;
     }
 
     // ---------- タイトルを１文字づつ表示させる ----------
@@ -39,7 +40,7 @@ body {
         width: 100%;
         z-index: 9000;
     }
-    
+
     .logo p {
         position: fixed;
         left: 50%;
