@@ -1,6 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     letter-spacing: 0.1em;
     display: none;
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#f7f9f8, #dcf5dc,)
 }
 
 // ---------- indexページ ----------
@@ -11,7 +22,6 @@ body {
 
     .titleAnime {
         position: absolute;
-        color: lightgreen;
         font-size: 96px;
         font-family: "Shrikhand", cursive;
         letter-spacing: 0.2em;
@@ -51,7 +61,6 @@ body {
         width: 280px;
     }
     // ---------- トップページ読み込み時にロゴを表示させる ここまで ----------
-
 }
 
 // ---------- profileページ ----------
@@ -66,17 +75,9 @@ body {
         padding:30px;
         width: 32%;
     }
-
-    h4 {
-        color: lightgreen;
-    }
 }
 // ---------- collection_worksページ ----------
 .collection_works {
-    h1 {
-        color: lightgreen;
-    }
-
     img {
         box-shadow: 15px 15px 20px #717271;
         margin-bottom: 30px
@@ -89,7 +90,6 @@ body {
     .development-secret-story {
         h3 {
             padding-top: 20px;
-            color:lightgreen;
         }
 
         span {
