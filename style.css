@@ -52,7 +52,7 @@ body {
   width: 280px;
 }
 
-.about .wrap {
+.profile .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +62,7 @@ body {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
-.about .icon {
+.profile .icon {
   padding: 30px;
   width: 32%;
 }
