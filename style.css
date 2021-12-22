@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -67,6 +68,11 @@ body {
   width: 32%;
 }
 
+.collection_works {
+  /*
+  画像がスライドイン
+  */
+}
 .collection_works img {
   -webkit-box-shadow: 15px 15px 20px #717271;
           box-shadow: 15px 15px 20px #717271;
@@ -91,5 +97,35 @@ body {
   border-top: solid 5px #5d627b;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.collection_works #works-image {
+  -webkit-animation: SlideIn 2s;
+          animation: SlideIn 2s;
+}
+@-webkit-keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(-64px);
+            transform: translateX(-64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(-64px);
+            transform: translateX(-64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=style.css.map */

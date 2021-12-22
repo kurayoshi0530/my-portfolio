@@ -107,4 +107,22 @@ body {
         border-top: solid 5px #5d627b;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
     }
+
+    /*
+    画像がスライドイン
+    */
+    #works-image {
+        animation: SlideIn 2.0s;
+    }
+
+    @keyframes SlideIn {
+        0% {
+            opacity: 0;/*初期状態では透明に*/
+            transform: translateX(-64px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
 }
